@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarCitizen.center - maintenance mode</title>
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-color: #1c2737;
+            color: #a2adbc;
+            font-family: 'Electrolize', sans-serif;
+        }
+
+        b {
+            color: #77bce3;
+        }
+
+        main {
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(43, 62, 80, 0.8);
+        }
+
+        main div {
+            width: 640px;
+            text-align: left;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>StarCitizen.center will launch soon</h1>
+    <h3>Our ships are in a Service Station and the pilots in the nearest bar.</h3>
+    <img src="main.gif" alt="working hard"/>
+    <div>
+        <p>On StarCitizen.center you will find a collection of Star Citizen companion apps,
+            similar to MobiGlas ones but with additional features.</p>
+        <p>The <b>Route Planner</b> is the first app we built with following main features:</p>
+        <ul>
+            <li><b>Fastest path route</b> algorithm with variables like ship (jumppoint) size,
+                threat level (of each system and place) and affiliation.
+            </li>
+            <li><b>Custom map layout</b> - you can manually arrange system positions on
+                the map by using drag&drop (share/export soon).
+            </li>
+            <li>Approximate calculation of <b>travel time, distance and fuel usage</b>
+                (work in progress,
+                and waiting for StarCitizen 3.0) for each segment of the route.
+            </li>
+            <li>Comprehensive (official) list of places <b>(planets, asteroid belts,
+                stars
+                etc)</b> with custom properties like "mining". Easy to find a new
+                adventure
+                or business location.
+            </li>
+            <li>Browser <b>persistence</b> between sessions (route places and
+                preferences,
+                favorites, system positions on the map)
+            </li>
+            <li>Tablet friendly - designed to work on tablets, as a companion app
+                for Star Citizen.
+            </li>
+            <li>Share (not implemented yet) your routes and system layout (positions
+                on map).
+            </li>
+        </ul>
+    </div>
+
+</main>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src   = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-91413956-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
